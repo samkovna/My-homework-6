@@ -14,9 +14,9 @@ public class SalesService {
 
         long averageSales = 0;
         long sumSales = getAllSales(sales);
-        for (int i = 0; i < sales.length; i++) {
-            averageSales = sumSales / sales.length;
-        }
+
+        averageSales = sumSales / sales.length;
+
         return averageSales;
     }
 
